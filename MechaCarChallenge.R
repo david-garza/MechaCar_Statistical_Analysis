@@ -34,3 +34,20 @@ total_summary<-coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var
 # Create summary data by lot
 lot_summary<-coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
 
+################################################################################
+# Deliverable 3
+################################################################################
+
+# First define the test standard as a variable for the t-test
+standard<-1500
+
+# Load coil data to ensure a clean data set
+coil <-read.csv("data/Suspension_Coil.csv")
+
+# Perform one sample t.test on all of the coils assuming standard value for mu.
+t.test(coil$PSI,mu=standard)
+
+# Perform one sample t.test on each lot using the t.test subset argument
+t.test(PSI~1,coil,mu=standard,subset=coil["Manufacturing_Lot"]=="Lot1")
+t.test(PSI~1,coil,mu=standard,subset=coil["Manufacturing_Lot"]=="Lot2")
+t.test(PSI~1,coil,mu=standard,subset=coil["Manufacturing_Lot"]=="Lot3")

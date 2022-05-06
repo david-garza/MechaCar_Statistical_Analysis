@@ -37,3 +37,13 @@ lot_summary<-coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),M
 ################################################################################
 # Deliverable 3
 ################################################################################
+
+# First define the test standard as a variable for the t-test
+standard<-1500
+
+# Load coil data to ensure a clean data set
+coil <-read.csv("data/Suspension_Coil.csv")
+
+# Perform one sample t.test on all of the coils assuming standard value for mu.
+t.test(coil$PSI,mu=standard)
+

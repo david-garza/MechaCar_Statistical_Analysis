@@ -47,3 +47,7 @@ coil <-read.csv("data/Suspension_Coil.csv")
 # Perform one sample t.test on all of the coils assuming standard value for mu.
 t.test(coil$PSI,mu=standard)
 
+# Perform one sample t.test on each lot using the t.test subset argument
+t.test(PSI~1,coil,mu=standard,subset=coil["Manufacturing_Lot"]=="Lot1")
+t.test(PSI~1,coil,mu=standard,subset=coil["Manufacturing_Lot"]=="Lot2")
+t.test(PSI~1,coil,mu=standard,subset=coil["Manufacturing_Lot"]=="Lot3")

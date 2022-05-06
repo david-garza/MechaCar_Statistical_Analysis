@@ -34,3 +34,6 @@ total_summary<-coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var
 # Create summary data by lot
 lot_summary<-coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
 
+################################################################################
+# Deliverable 3
+################################################################################

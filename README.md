@@ -68,3 +68,7 @@ The following analysis will perform summary statistics on production lots of sus
   If the requirement is not to exceed 100 psi, then the metric to inspect is standard deviation which would be in units of psi. Variance would be in units of psi^2.
   
   The standard deviation never exceeds 100 psi by individual lot or total. Therefore, it can be assumed that the production process is stable.
+
+## Deliverable 3: T-Tests on Suspension Coils
+
+This analysis will perform single t-test to determine if the suspension coils are statistically different from expected value of 1,500 PSI.

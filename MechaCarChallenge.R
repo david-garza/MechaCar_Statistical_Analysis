@@ -1,3 +1,7 @@
+################################################################################
+# Deliverable 1
+################################################################################
+
 # load needed libraries, using tidyverse as it also provides ggplot
 library(tidyverse)
 
@@ -16,3 +20,7 @@ model<-lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD,m
 
 # Model summary
 summary(model)
+
+################################################################################
+# Deliverable 2
+################################################################################

@@ -52,3 +52,7 @@ The plot of mpg vs ground clearance is noisier. It is not apparent there is a re
   The effectiveness depends on the needs and requirements of the customer requesting the model. Currently, this model accounts for 68% of the variation in mpg. This means that 32% of the variation is due to other unknown factors. A plot of the predicted mpg vs the measured mpg is provided for reference.
 
 ![Predicted vs. Actual](resources/d1predactual.png)
+
+## Deliverable 2: Summary Statistics on Suspension Coils
+
+The following analysis will perform summary statistics on production lots of suspension coils. Ideally, the values of the suspension coils should remain the same from lot to lot.

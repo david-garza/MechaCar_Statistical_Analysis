@@ -1,3 +1,7 @@
+################################################################################
+# Deliverable 1
+################################################################################
+
 # load needed libraries, using tidyverse as it also provides ggplot
 library(tidyverse)
 
@@ -16,3 +20,17 @@ model<-lm(mpg~vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AWD,m
 
 # Model summary
 summary(model)
+
+################################################################################
+# Deliverable 2
+################################################################################
+
+# Import suspension data
+coil <-read.csv("data/Suspension_Coil.csv")
+
+# Create total summary table
+total_summary<-coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
+
+# Create summary data by lot
+lot_summary<-coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
+

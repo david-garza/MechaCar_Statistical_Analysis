@@ -52,3 +52,19 @@ The plot of mpg vs ground clearance is noisier. It is not apparent there is a re
   The effectiveness depends on the needs and requirements of the customer requesting the model. Currently, this model accounts for 68% of the variation in mpg. This means that 32% of the variation is due to other unknown factors. A plot of the predicted mpg vs the measured mpg is provided for reference.
 
 ![Predicted vs. Actual](resources/d1predactual.png)
+
+## Deliverable 2: Summary Statistics on Suspension Coils
+
+The following analysis will perform summary statistics on production lots of suspension coils. Ideally, the values of the suspension coils should remain the same from lot to lot.
+
+### Summarized Data
+
+![Total Summary](resources/d2total.png)
+
+![Lot Summary](resources/d2lot.png)
+
+* The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+  If the requirement is not to exceed 100 psi, then the metric to inspect is standard deviation which would be in units of psi. Variance would be in units of psi^2.
+  
+  The standard deviation never exceeds 100 psi by individual lot or total. Therefore, it can be assumed that the production process is stable.

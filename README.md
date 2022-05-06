@@ -59,9 +59,9 @@ The following analysis will perform summary statistics on production lots of sus
 
 ### Summarized Data
 
-![Total Summary](resources/d2total.png)
+![Total Summary](resources/d2total.PNG)
 
-![Lot Summary](resources/d2lot.png)
+![Lot Summary](resources/d2lot.PNG)
 
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -77,24 +77,24 @@ This analysis will perform one sample t-test to determine if the suspension coil
 
 This t-test had 150 data points with the following t-test results:
 
-![t-test on combined lots](resources/d3total.png)
+![t-test on combined lots](resources/d3total.PNG)
 
 The mean of all lots combined is 1498.78 resulting in a p-value of 0.06028. If we use the 0.05 cutoff, we can assume that the coil PSI is 1,500.
 
 ### Lot 1 t-test
 
-![Lot 1 t-test](resources/d3lot1.png)
+![Lot 1 t-test](resources/d3lot1.PNG)
 
 The mean for lot 1 is 1,500 resulting in a p-value of 1. Lot 1 is not statistically different from 1,500.
 
 ### Lot 2 t-test
 
-![Lot 2 t-test](resources/d3lot2.png)
+![Lot 2 t-test](resources/d3lot2.PNG)
 
 The mean for lot 2 is 1,500.2 resulting in a p-value of 0.6072. Lot 2 is not statistically different from 1,500.
 
 ### Lot 3 t-test
 
-![Lot 3 t-test](resources/d3lot3.png)
+![Lot 3 t-test](resources/d3lot3.PNG)
 
 The mean for lot 3 is 1,496.14 resulting in a p-value of 0.04168. This is below the 0.05 cutoff, therefore we can say that lot 3 is statistically different from 1,500.

@@ -27,3 +27,10 @@ summary(model)
 
 # Import suspension data
 coil <-read.csv("data/Suspension_Coil.csv")
+
+# Create total summary table
+total_summary<-coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
+
+# Create summary data by lot
+lot_summary<-coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
+

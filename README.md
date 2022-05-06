@@ -59,7 +59,7 @@ The following analysis will perform summary statistics on production lots of sus
 
 ### Summarized Data
 
-![Total Summary](resources/d2total.png)
+![Total Summary](resources/d2total.PNG)
 
 ![Lot Summary](resources/d2lot.png)
 

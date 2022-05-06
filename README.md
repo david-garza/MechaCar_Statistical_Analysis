@@ -18,9 +18,21 @@ A multi linear regression will be fitted to the above factors.
 ### Results
 
 #### Correlation Matrix
-![](resources/d1cor.PNG)
+![MPG Correlations](resources/d1cor.PNG)
 
 A correlation matrix helps determine which factors may have an influence on MPG.
 The only strong correlation factor is length with a value of 0.61. Ground clearance
 height has a slight correlation of 0.33. This would suggest that the multi linear
 regression should pick up length as having the most influence in predicting mpg.
+
+#### Exploratory Analysis
+![Plot of MPG vs Length](resources/length.png)
+
+Visual inspection of mpg vs. length suggest a relationship between mpg and vehicle
+length.
+
+![Plot of MPG vs Ground Clearnce](resources/ground_clearance.png)
+
+The plot of mpg vs ground clearance is noisier. It is not apparent there is a relationship between mpg and ground clearance.
+
+#### Linear Regression to Predict MPG

@@ -104,11 +104,23 @@ The mean for lot 3 is 1,496.14 resulting in a p-value of 0.04168. This is below 
 ### Test Metric
 What metric or metrics are you going to test?
 
+The metric I am going to test is the design appeal of the mecha car against our competitor car of the similar make and model. Men and women will be asked to examen and walk around and sit in the Mechacar and one of our competitor's cars. To control as much varaince as possible, the cars would be of similar type, same color, basic package, and same interior options.
+
+Men and women will then vote on which car they liked more based on overall features and looks. The data will be a 2 x 2 box, rows would be MechaCar and competitor and the columns would be men and women. The values of the box would be the frequency of the number of votes in favor of the car by each gender.
+
 ### Hypothesis
 What is the null hypothesis or alternative hypothesis?
+
+The null hypothesis would be the vote frequency for car preferences by gender would be the same if there is no preference between cars and no gender prefers one car over the other. For example, if 50 women and 50 men vote, each box should have 25 votes each.
+
+Alternative hypothesis would be if one car is preferece more than the other or by one gender or another and it isn't 25, 25, 25, 25.
 
 ### Statistical Test
 What statistical test would you use to test the hypothesis? And why?
 
+The data is a frequency by category. Therefore the best would be the chi-squared test to determine if any frequencies away from 25 are significant differences.
+
 ### Data Needed
 What data is needed to run the statistical test?
+
+The data is the votes for each car recorded by gender.

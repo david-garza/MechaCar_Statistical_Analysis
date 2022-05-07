@@ -98,3 +98,6 @@ The mean for lot 2 is 1,500.2 resulting in a p-value of 0.6072. Lot 2 is not sta
 ![Lot 3 t-test](resources/d3lot3.PNG)
 
 The mean for lot 3 is 1,496.14 resulting in a p-value of 0.04168. This is below the 0.05 cutoff, therefore we can say that lot 3 is statistically different from 1,500.
+
+## Study Design: MechaCar vs Competition
+
